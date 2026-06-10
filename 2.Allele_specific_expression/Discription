@@ -1,1 +1,8 @@
 
+1_maskGenome.sh: mask genome, replacing SNPs with N;
+
+2_align.sh: align fastq files to masked genome, sort and index;
+
+3_allele_sepcific_expression.sh: quantify allele specific expression on each loci using GATK;
+
+4_summary.sh: summary and merge results for each sample;
